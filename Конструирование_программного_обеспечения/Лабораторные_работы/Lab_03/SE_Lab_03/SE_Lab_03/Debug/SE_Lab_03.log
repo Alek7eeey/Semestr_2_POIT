@@ -1,0 +1,31 @@
+﻿Сборка начата 30.03.2022 15:01:22.
+Уровень детализации журнала: Normal.     1>Проект "D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\SE_Lab_03\SE_Lab_03.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\SE_Lab_03.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt main.cpp
+         main.cpp
+     1>D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\SE_Lab_03\main.cpp(20,10): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+     1>D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\SE_Lab_03\main.cpp(63): warning C4723: возможное деление на 0
+     1>D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\SE_Lab_03\main.cpp(64): warning C4723: возможное деление на 0
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\Debug\SE_Lab_03.exe" /INCREMENTAL /ILK:"Debug\SE_Lab_03.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\Debug\SE_Lab_03.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\Debug\SE_Lab_03.lib" /MACHINE:X86 Debug\main.obj
+         LINK : не найден или не выполнена сборка D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\Debug\SE_Lab_03.exe при последней инкрементной компоновке; выполняется полная компоновка
+         SE_Lab_03.vcxproj -> D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\Debug\SE_Lab_03.exe
+       FinalizeBuildStatus:
+         Файл "Debug\SE_Lab_03.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\SE_Lab_03.tlog\SE_Lab_03.lastbuildstate".
+     1>Сборка проекта "D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\SE_Lab_03\SE_Lab_03.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\SE_Lab_03\SE_Lab_03.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\SE_Lab_03\main.cpp(20,10): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+         D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\SE_Lab_03\main.cpp(63): warning C4723: возможное деление на 0
+         D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_03\SE_Lab_03\SE_Lab_03\main.cpp(64): warning C4723: возможное деление на 0
+
+    Предупреждений: 3
+    Ошибок: 0
+
+Прошло времени 00:00:06.45

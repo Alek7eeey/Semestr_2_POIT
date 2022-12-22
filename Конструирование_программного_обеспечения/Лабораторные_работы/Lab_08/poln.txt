@@ -1,0 +1,258 @@
+//#include <iostream>
+//#include <windows.h>
+//#include <string>
+//#include "Call.h"
+//using namespace std;
+//
+//bool isProved_2(string num, int start, int end)
+//{
+//	char nums[] = "-0123456789";
+//	bool isNotNum = false;
+//
+//	for (int i = 0; i < num.size(); i++)
+//	{
+//		for (int j = 0; j < strlen(nums); j++)
+//		{
+//			if (num[i] == nums[j])
+//			{
+//				isNotNum = false;
+//				if (num[i] == '-' && i != 0)
+//					return false;
+//
+//				if (num[i] == '-' && i == 0 && num.size() == 1)
+//					return false;
+//				break;
+//			}
+//
+//			else
+//			{
+//				isNotNum = true;
+//			}
+//		}
+//
+//		if (isNotNum)
+//		{
+//			return false;
+//		}
+//	}
+//
+//	if (stoi(num) < start || stoi(num) > end)
+//	{
+//		return false;
+//	}
+//
+//	return true;
+//}
+//
+//bool isProved(string num)
+//{
+//	char nums[] = "-0123456789";
+//	bool isNotNum = false;
+//
+//	for (int i = 0; i < num.size(); i++)
+//	{
+//		for (int j = 0; j < 11; j++)
+//		{
+//			if (num[i] == nums[j])
+//			{
+//				isNotNum = false;
+//				break;
+//			}
+//			else
+//			{
+//				isNotNum = true;
+//			}
+//		}
+//
+//		if (isNotNum)
+//		{
+//			return false;
+//		}
+//	}
+//
+//	return true;
+//}
+//
+//int _cdecl cdevl(int a, int b, int c) //Параметры помещаются в стек в обратном порядке (справа налево)
+//{
+//	return a + b + c;
+//};
+//
+//int _stdcall cstd(int& a_ref, int b, int c) //Параметры помещаются в стек в обратном порядке (справа налево)
+//{
+//	return a_ref * b * c;
+//};
+//
+//int _fastcall cfst(int a, int b, int c, int d) //Хранятся в регистрах, затем помещаются в стек
+//{
+//	return a + b + c + d;
+//};
+//
+//void main()
+//{
+//	setlocale(LC_ALL, "Rus");
+//	SetConsoleCP(1251);
+//	SetConsoleOutputCP(1251);
+//	int choice;
+//	string prov;
+//
+//	while (!0)
+//	{
+//		system("cls");
+//		cout << "Выберите, какую функцию вызвать: " << endl;
+//		cout << "1.Функция cdevl(сумма трёх параметров)" << endl;
+//		cout << "2.Функция cstd(произведение трёх параметров)" << endl;
+//		cout << "3.Функция cfst(сумма четырёх параметров)" << endl;
+//		cout << "4.Выход" << endl;
+//
+//		cout << "->"; getline(cin, prov);
+//		while (!isProved_2(prov,1,4))
+//		{
+//			system("cls");
+//			cout << "Введите ВЕРНЫЙ вариант!\n\n";
+//			cout << "Выберите, какую функцию вызвать: " << endl;
+//			cout << "1.Функция cdevl(сумма трёх параметров)" << endl;
+//			cout << "2.Функция cstd(произведение трёх параметров)" << endl;
+//			cout << "3.Функция cfst(сумма четырёх параметров)" << endl;
+//			cout << "4.Выход" << endl;
+//			cout << "->"; getline(cin, prov);
+//		}
+//
+//		choice = stoi(prov);
+//
+//		switch (choice)
+//		{
+//		case 1:
+//		{
+//			int a, b, c;
+//			cout << "Введите значение первого параметра:\t";
+//			getline(cin, prov);
+//			while (!isProved(prov))
+//			{
+//				cout << "Введите ВЕРНОЕ значение первого параметра:\t";
+//				getline(cin, prov);
+//			}
+//
+//			a = stoi(prov);
+//
+//			cout << "Введите значение второго параметра:\t";
+//			getline(cin, prov);
+//			while (!isProved(prov))
+//			{
+//				cout << "Введите ВЕРНОЕ значение второго параметра:\t";
+//				getline(cin, prov);
+//			}
+//
+//			b = stoi(prov);
+//
+//			cout << "Введите значение третьего параметра:\t";
+//			getline(cin, prov);
+//			while (!isProved(prov))
+//			{
+//				cout << "Введите ВЕРНОЕ значение третьего параметра:\t";
+//				getline(cin, prov);
+//			}
+//
+//			c = stoi(prov);
+//
+//			int result = call::cdevl(a, b, c);
+//			cout << "Результат выполнения функции = " << result << endl << endl;
+//			system("pause");
+//			break;
+//		}
+//
+//		case 2:
+//		{
+//			int a, b, c;
+//			cout << "Введите значение первого параметра:\t";
+//			getline(cin, prov);
+//			while (!isProved(prov))
+//			{
+//				cout << "Введите ВЕРНОЕ значение первого параметра:\t";
+//				getline(cin, prov);
+//			}
+//
+//			a = stoi(prov);
+//
+//			cout << "Введите значение второго параметра:\t";
+//			getline(cin, prov);
+//			while (!isProved(prov))
+//			{
+//				cout << "Введите ВЕРНОЕ значение второго параметра:\t";
+//				getline(cin, prov);
+//			}
+//
+//			b = stoi(prov);
+//
+//			cout << "Введите значение третьего параметра:\t";
+//			getline(cin, prov);
+//			while (!isProved(prov))
+//			{
+//				cout << "Введите ВЕРНОЕ значение третьего параметра:\t";
+//				getline(cin, prov);
+//			}
+//
+//			c = stoi(prov);
+//
+//			int result = call::cstd(a, b, c);
+//			cout << "Результат выполнения функции = " << result << endl << endl;
+//			system("pause");
+//			break;
+//		}
+//
+//		case 3:
+//		{
+//			int a, b, c, d;
+//			cout << "Введите значение первого параметра:\t";
+//			getline(cin, prov);
+//			while (!isProved(prov))
+//			{
+//				cout << "Введите ВЕРНОЕ значение первого параметра:\t";
+//				getline(cin, prov);
+//			}
+//
+//			a = stoi(prov);
+//
+//			cout << "Введите значение второго параметра:\t";
+//			getline(cin, prov);
+//			while (!isProved(prov))
+//			{
+//				cout << "Введите ВЕРНОЕ значение второго параметра:\t";
+//				getline(cin, prov);
+//			}
+//
+//			b = stoi(prov);
+//
+//			cout << "Введите значение третьего параметра:\t";
+//			getline(cin, prov);
+//			while (!isProved(prov))
+//			{
+//				cout << "Введите ВЕРНОЕ значение третьего параметра:\t";
+//				getline(cin, prov);
+//			}
+//
+//			c = stoi(prov);
+//
+//			cout << "Введите значение четвёртого параметра:\t";
+//			getline(cin, prov);
+//			while (!isProved(prov))
+//			{
+//				cout << "Введите ВЕРНОЕ значение четвёртого параметра:\t";
+//				getline(cin, prov);
+//			}
+//
+//			d = stoi(prov);
+//
+//			int result = call::cfst(a, b, c, d);
+//			cout << "Результат выполнения функции = " << result << endl << endl;
+//			system("pause");
+//			break;
+//		}
+//
+//		case 4: exit(0);
+//
+//		}
+//
+//
+//	}
+//}

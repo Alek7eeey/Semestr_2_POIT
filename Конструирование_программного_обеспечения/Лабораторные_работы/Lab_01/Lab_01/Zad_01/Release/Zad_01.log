@@ -1,0 +1,28 @@
+﻿Сборка начата 11.02.2022 23:24:50.
+Уровень детализации журнала: Normal.     1>Проект "D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_01\Lab_01\Zad_01\Zad_01.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Release\Zad_01.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /FA /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Zad_01.cpp
+         Zad_01.cpp
+     1>D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_01\Lab_01\Zad_01\Zad_01.cpp(10,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_01\Lab_01\Release\Zad_01.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_01\Lab_01\Release\Zad_01.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"Release\Zad_01.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_01\Lab_01\Release\Zad_01.lib" /MACHINE:X86 /SAFESEH Release\Zad_01.obj
+     1>LINK : fatal error LNK1104: не удается открыть файл "D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_01\Lab_01\Release\Zad_01.exe"
+     1>Сборка проекта "D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_01\Lab_01\Zad_01\Zad_01.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_01\Lab_01\Zad_01\Zad_01.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_01\Lab_01\Zad_01\Zad_01.cpp(10,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+
+       "D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_01\Lab_01\Zad_01\Zad_01.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         LINK : fatal error LNK1104: не удается открыть файл "D:\studing\Конструирование программного обеспечения\Лабораторные работы\Lab_01\Lab_01\Release\Zad_01.exe"
+
+    Предупреждений: 1
+    Ошибок: 1
+
+Прошло времени 00:00:01.50
