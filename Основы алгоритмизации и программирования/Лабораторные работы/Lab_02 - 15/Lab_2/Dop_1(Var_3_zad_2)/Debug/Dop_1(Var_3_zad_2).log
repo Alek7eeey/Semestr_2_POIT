@@ -1,0 +1,19 @@
+﻿Сборка начата 21.02.2022 16:54:25.
+Уровень детализации журнала: Normal.     1>Проект "D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_02(n)\Lab_2\Dop_1(Var_3_zad_2)\Dop_1(Var_3_zad_2).vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Dop_1(Va.5aee08f0.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         Dop_1(Var_3_zad_2).vcxproj -> D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_02(n)\Lab_2\Debug\Dop_1(Var_3_zad_2).exe
+       FinalizeBuildStatus:
+         Файл "Debug\Dop_1(Va.5aee08f0.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Dop_1(Va.5aee08f0.tlog\Dop_1(Var_3_zad_2).lastbuildstate".
+     1>Сборка проекта "D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_02(n)\Lab_2\Dop_1(Var_3_zad_2)\Dop_1(Var_3_zad_2).vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.07

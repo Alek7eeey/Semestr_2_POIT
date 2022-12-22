@@ -1,0 +1,18 @@
+int check_left(Tree* tree)
+{
+    static int sum = 0;
+
+
+    if (tree->left != NULL)
+    {
+        sum++;
+        check_left(tree->left);
+        
+    }
+    if (tree->right != NULL)
+        check_left(tree->right);
+
+
+
+    return sum;
+}

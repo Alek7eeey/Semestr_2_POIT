@@ -1,0 +1,13 @@
+if (f % k == 0)
+{
+	li.pop_front();
+}
+
+else {
+
+	time = li.front();
+	li.pop_front();
+	li.push_back(time);
+
+}
+++f;

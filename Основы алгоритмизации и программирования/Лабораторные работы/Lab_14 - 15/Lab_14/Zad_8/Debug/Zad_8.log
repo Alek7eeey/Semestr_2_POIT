@@ -1,0 +1,126 @@
+﻿Сборка начата 16.05.2022 12:52:47.
+Уровень детализации журнала: Normal.     1>Проект "D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\Zad_8.tlog\Zad_8.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Обращение к "Debug\Zad_8.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Zad_8.cpp
+         Zad_8.cpp
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(54,11): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(57,14): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(57,15): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(58,14): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(58,15): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(65,8): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(67,14): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(67,15): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(68,14): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(68,15): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(69,13): error C2872: size: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(15,5): message : может быть "int size"
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(69,13): message : или       "size"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(72,13): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(74,14): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(74,15): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(85,8): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(91,14): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(91,15): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(92,14): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(92,15): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(93,13): error C2872: size: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(15,5): message : может быть "int size"
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(93,13): message : или       "size"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(102,12): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(108,61): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(108,78): error C2872: array: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(13,13): message : может быть "set *array"
+       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(486,7): message : или       "std::array"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(115,16): error C2872: size: неоднозначный символ
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(15,5): message : может быть "int size"
+       D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(115,16): message : или       "size"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(132,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(138,13): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(140,13): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(148,13): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(172,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>Сборка проекта "D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.vcxproj" завершена (целевые объекты Rebuild) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(54,11): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(57,14): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(57,15): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(58,14): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(58,15): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(65,8): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(67,14): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(67,15): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(68,14): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(68,15): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(69,13): error C2872: size: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(72,13): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(74,14): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(74,15): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(85,8): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(91,14): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(91,15): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(92,14): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(92,15): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(93,13): error C2872: size: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(102,12): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(108,61): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(108,78): error C2872: array: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(115,16): error C2872: size: неоднозначный символ
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(132,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(138,13): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(140,13): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(148,13): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Zad_8\Zad_8.cpp(172,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+
+    Предупреждений: 0
+    Ошибок: 29
+
+Прошло времени 00:00:01.24

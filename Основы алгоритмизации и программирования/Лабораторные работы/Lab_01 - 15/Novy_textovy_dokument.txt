@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int sum(int *n, ...)
+{
+		int mas[20];
+		int  *p = n;
+		for (int z = 1; z <20; z++) {
+			mas[z] = p[z];
+		}
+		for (int z = 1; z < 20; z++) {
+			if ((mas[z] * mas[z]) % 24 == 1 || mas[z] == 3 || mas[z] == 2) {
+				cout << "This number is simple " << p[z] << endl;
+			}
+		}
+	return 0;
+}
+int main()
+{
+	int i = 0;
+	int interval[20];
+	int sinterval[20];
+	int a, b;
+	cout << "write 2 numbers";
+	cin >> a >> b;
+	for (a; a < b+1; a++) {
+		interval[i] = a;
+		i++;
+	}
+	cout << endl;
+
+	sum(interval);
+}

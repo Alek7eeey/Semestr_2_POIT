@@ -1,0 +1,579 @@
+Вариант 1_1
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "RUS");
+	int a, row, column;
+	int B[20][20], S[20][20], R[20][20];
+	errno_t err, er, e;
+	FILE* f, * g, * k;
+	err = fopen_s(&f, "firstMATR.txt", "w");
+	cout << "Введите количество столбцов: ";
+	cin >> column;
+	cout << "Введите количество строк: ";
+	cin >> row; //для второй column = row1
+	if (err != 0)
+	{
+		perror("Невозможно создать файл\n");
+		return EXIT_FAILURE;
+	}
+	for (int i = 0; i < row; i++) {
+
+		for (int j = 0; j < column; j++) {
+			B[i][j] = rand() % 99 + 1;
+			fprintf(f, "%d, ", B[i][j]);
+		}
+		fputs("\n", f);
+	}
+	printf("Данные записаны в файл firstMATR.txt\n");
+
+	er = fopen_s(&g, "secMATR.txt", "w");
+	if (er != 0)
+	{
+		perror("Невозможно создать файл\n");
+		return EXIT_FAILURE;
+	}
+	for (int i = 0; i < column; i++) {
+
+		for (int j = 0; j < row; j++) {
+			S[i][j] = rand() % 99 + 1;
+			fprintf(g, "%d, ", S[i][j]);
+		}
+		fputs("\n", g);
+	}
+	printf("Данные записаны в файл secMATR.txt\n");
+
+	e = fopen_s(&k, "rezMATR.txt", "w");
+	if (er != 0)
+	{
+		perror("Невозможно создать файл\n");
+		return EXIT_FAILURE;
+	}
+
+	for (int i = 0; i < row; i++) {
+
+		for (int j = 0; j < column; j++) {
+
+			R[i][j] = B[i][j] * S[j][i];
+			fprintf(k, "%d, ", R[i][j]);
+		}
+		fputs("\n", k);
+	}
+	printf("Данные записаны в файл rezMATR.txt\n");
+	fclose(k);
+	fclose(g);
+	fclose(f);
+	return 0;
+}
+
+Вариант 1_2
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "RUS");
+	int a, k, z = 0, m = 0; errno_t err, fl;
+	char pd;
+	FILE* f;
+	FILE* g;
+	err = fopen_s(&f, "nom2f1.txt", "w");
+	fl = fopen_s(&g, "nom2f2.txt", "w");
+	cout << "Введи какому числу должно быть кратно: ";
+	cin >> k;
+	if (err != 0)
+	{
+		perror("Невозможно создать файл\n");
+		return EXIT_FAILURE;
+	}
+	for (a = 0; a < 30; a += 1)
+	{
+
+		m = -60 + rand() % 99;
+		if (m >= 10 || m <= -10) {
+
+			fprintf(f, "%d, ", m);
+			if (m % k == 0) {
+				fprintf(g, "%d, ", m);
+			}
+
+		}
+	}
+	for (int k = 1; k <= ftell(f); k++)
+	{
+		fread((void*)&pd, sizeof(char), 1, f);
+		if (pd != ' ') {
+			cout << pd;
+		}
+	}
+	printf("Данные записаны в файл nom2f1.txt\n");
+	printf("Данные записаны в файл nom2f2.txt\n");
+	fclose(f);
+	fclose(g);
+	return 0;
+}
+
+Вариант 3_1
+#include <stdio.h>
+#include <iostream>
+int main()
+{
+	setlocale(LC_ALL, "");
+	int a, m = 5, n = 5;
+	int B[20][20];
+	errno_t err;
+	FILE* f, * h;
+	err = fopen_s(&f, "in.txt", "w");
+	if (err != 0)
+	{
+		perror("Невозможно создать файл\n");
+		return EXIT_FAILURE;
+	}
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0; j < m; j++) {
+			B[i][j] = rand() % 99 + 1;
+			fprintf(f, "%d, ", B[i][j]);
+		}
+
+		fputs("\n", f);
+	}
+	printf("Данные записаны в файл in.txt\n");
+	fclose(f);
+	err = fopen_s(&h, "transporant.txt", "w");
+	if (err != 0)
+	{
+		perror("Невозможно создать файл\n");
+		return EXIT_FAILURE;
+	}
+
+	for (int i = 0; i < n; i++)
+	{
+
+		for (int j = 0; j < m; j++) {
+
+			fprintf(h, "%d, ", B[j][i]);
+		}
+
+		fputs("\n", h);
+	}
+	printf("Данные записаны в файл transporant.txt\n");
+	fclose(h);
+	return 0;
+}
+
+Вариант 3_2
+#include <stdio.h>
+#include <iostream>
+int main()
+{
+	setlocale(LC_ALL, "");
+	int a; errno_t err;
+	int A[] = { 1,2,3,4,5 };
+	int B[] = { 6,7,8,9,10 };
+	int C[] = { 11,12,13,14,15 };
+	FILE* f, * s, * t, * d;
+	err = fopen_s(&f, "a.txt", "w");
+	if (err != 0)
+	{
+		perror("Невозможно создать файл\n");
+		return EXIT_FAILURE;
+	}
+	for (int i = 0; i < 5; i++)
+	{
+		fprintf(f, "%d, ", A[i]);
+	}
+	printf("Данные записаны в файл A.txt\n");
+	fclose(f);
+
+	err = fopen_s(&s, "b.txt", "w");
+	if (err != 0)
+	{
+		perror("Невозможно создать файл\n");
+		return EXIT_FAILURE;
+	}
+	for (int i = 0; i < 5; i++)
+	{
+		fprintf(s, "%d, ", B[i]);
+	}
+	printf("Данные записаны в файл B.txt\n");
+	fclose(s);
+
+	err = fopen_s(&t, "c.txt", "w");
+	if (err != 0)
+	{
+		perror("Невозможно создать файл\n");
+		return EXIT_FAILURE;
+	}
+	for (int i = 0; i < 5; i++)
+	{
+		fprintf(t, "%d, ", C[i]);
+	}
+	printf("Данные записаны в файл C.txt\n");
+	fclose(t);
+
+	err = fopen_s(&d, "d.txt", "w");
+	if (err != 0)
+	{
+		perror("Невозможно создать файл\n");
+		return EXIT_FAILURE;
+	}
+	for (int i = 0; i < 5; i++)
+	{
+		fprintf(d, "%d, ", A[i]);
+		fprintf(d, "%d, ", B[i]);
+		fprintf(d, "%d, ", C[i]);
+
+	}
+	printf("Данные записаны в файл D.txt\n");
+	fclose(d);
+	return 0;
+}
+
+Вариант 7_1
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+
+using namespace std;
+
+int main()
+{
+	int value;
+	srand(time(NULL));
+	//-----------СОЗДАНИЕ ФАЙЛОВ---------------------------------—
+	//-----------------------------------------------------------—
+	ofstream of;
+	of.open("NameA");
+	for (int i = 0; i < 40; i++)
+	{
+		value = rand() % 10;
+		of << value << " ";
+	}
+	of.close();
+
+	of.open("NameB");
+	for (int i = 0; i < 40; i++)
+	{
+		value = rand() % 10;
+		of << value << " ";
+	}
+	of.close();
+
+	of.open("NameC");
+	for (int i = 0; i < 40; i++)
+	{
+		value = rand() % 10;
+		of << value << " ";
+	}
+	of.close();
+	//------------------------------------------------—
+	//-------Считывание чисел из файлов в массивы-----—
+	int arrA[40];
+	int arrB[40];
+	int arrC[40];
+
+	ifstream in;
+	in.open("NameA");
+
+	int i = 0;
+	while (i != 40)
+	{
+		in >> value;
+		arrA[i] = value;
+		i++;
+	}
+	in.close();
+
+	in.open("NameB");
+	i = 0;
+	while (i != 40)
+	{
+		in >> value;
+		arrB[i] = value;
+		i++;
+	}
+	in.close();
+
+	in.open("NameC");
+	i = 0;
+	while (i != 40)
+	{
+		in >> value;
+		arrC[i] = value;
+		i++;
+	}
+	in.close();
+	//---------------------------------------------------—
+	//------Записывание чисел в конечный файл------------—
+	of.open("NameD");
+	for (int i = 0; i < 40; i++) {
+		if ((arrA[i] > arrB[i]) && (arrA[i] > arrC[i]))
+		{
+			of << arrA[i] << " ";
+		}
+		if ((arrB[i] > arrA[i]) && (arrB[i] > arrC[i]))
+		{
+			of << arrB[i] << " ";
+		}
+		if ((arrC[i] > arrB[i]) && (arrC[i] > arrA[i]))
+		{
+			of << arrC[i] << " ";
+		}
+	}
+	return 0;
+}
+
+Вариант 7_2
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+
+using namespace std;
+
+int main()
+{
+	int value;
+	srand(time(NULL));
+	//-----------СОЗДАНИЕ ФАЙЛОВ---------------------------------—
+	//-----------------------------------------------------------—
+	ofstream of;
+	of.open("NameA");
+	for (int i = 0; i < 40; i++)
+	{
+		value = rand() % 10;
+		of << value << " ";
+	}
+	of.close();
+
+	of.open("NameB");
+	for (int i = 0; i < 40; i++)
+	{
+		value = rand() % 10;
+		of << value << " ";
+	}
+	of.close();
+
+	of.open("NameC");
+	for (int i = 0; i < 40; i++)
+	{
+		value = rand() % 10;
+		of << value << " ";
+	}
+	of.close();
+	//------------------------------------------------—
+	//-------Считывание чисел из файлов в массивы-----—
+	int arrA[40];
+	int arrB[40];
+	int arrC[40];
+
+	ifstream in;
+	in.open("NameA");
+
+	int i = 0;
+	while (i != 40)
+	{
+		in >> value;
+		arrA[i] = value;
+		i++;
+	}
+	in.close();
+
+	in.open("NameB");
+	i = 0;
+	while (i != 40)
+	{
+		in >> value;
+		arrB[i] = value;
+		i++;
+	}
+	in.close();
+
+	in.open("NameC");
+	i = 0;
+	while (i != 40)
+	{
+		in >> value;
+		arrC[i] = value;
+		i++;
+	}
+	in.close();
+	//---------------------------------------------------—
+	//------Записывание чисел в конечный файл------------—
+	of.open("NameD");
+	for (int i = 0; i < 40; i++)
+		of << arrA[i] << " " << arrB[i] << " " << arrC[i] << " ";
+
+	return 0;
+}
+
+Вариант 15_1
+#include <fstream>
+#include <stdio.h>
+#include <iostream>
+int main()
+{
+    using namespace std;
+    setlocale(LC_ALL, "");
+    int rows, cols, c = 0;
+    errno_t err;
+    FILE* f;
+    /*Создание файла*/
+    err = fopen_s(&f, "a.txt", "w");
+    if (err != 0)
+    {
+        perror("Невозможно создать файл\n");
+        return EXIT_FAILURE;
+    }
+    /*Запись значений в файл*/
+    printf("Введите кол строк\n");
+
+    cin >> rows;
+
+    printf("Введите кол столбцов\n");
+    cin >> cols;
+    fprintf(f, "%d ", rows);
+    fprintf(f, "%d\n", cols);
+
+    /*Создание матрицы и запись её в файл*/
+    /*Присвоение значений массиву*/
+    int** A; /* одна * когда массив простой, две * когда матрица, три * когад параллелепипед*/
+    srand((unsigned)time(NULL));
+    A = new int* [rows];
+    for (int numb = 0; numb < rows; numb++) {
+        A[numb] = new int[cols];
+        for (int numb2 = 0; numb2 < cols; numb2++) {
+            A[numb][numb2] = rand() % 10;
+            fprintf(f, "%d ", A[numb][numb2]);
+        }
+        fprintf(f, "\n");
+    }
+    fclose(f);
+
+    // 2 независамая часть
+
+    printf("Введите k-утю строку\n");
+    int k, k_start = 0, k_end = 0;
+    cin >> k;
+
+    ifstream input("a.txt"); //
+    float ch;
+    int Count = 0;
+    while (input >> ch) //
+        Count++;
+    cout << "Чисел в файле : " << Count << endl;
+    input.close();
+
+
+    int* mass = new int[Count]; //создаём массив и указываем его размер
+    ifstream file("a.txt"); //
+
+    int cols2, rows2;
+
+    file >> rows2; // читаем первую строку
+    file >> cols2;// читаем вторую строку
+
+    //чтение строк происходит последовательно
+
+    cout << rows2 << " " << cols2 << endl;
+
+    /*Создание файла*/
+
+    errno_t file_b;
+    FILE* b;
+
+    file_b = fopen_s(&b, "b.txt", "w");
+    if (file_b != 0)
+    {
+        perror("Невозможно создать файл\n");
+        return EXIT_FAILURE;
+    }
+
+    /*т.к.размерность массива указывали переменной Count, а 2 значения из файла
+    уже прочитаны, уменьшаем чтение в цикле на 2*/
+
+    for (int i = 0; i < (Count - 2); i++) {
+        k_start++;
+        if (k_start > ((k - 1) * cols2) && k_end < cols2) {
+            file >> mass[i];
+            fprintf(b, "%d ", mass[i]);
+            k_end++;
+        }
+        else {
+            file >> mass[i];
+        }
+    }
+
+    fclose(b);
+    printf("Данные записаны в файл b.txt\n");
+    return 0;
+}
+
+Вариант 15_2
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <locale.h>
+#include <stdlib.h>
+#include <ctime>
+#include <iostream>
+int main()
+{
+	using namespace std;
+	int i;
+	FILE* F1;
+	F1 = fopen("file.txt", "wt");
+	if (!F1)
+	{
+		printf("Error!");
+		return 0;
+	}
+
+	int bb;
+	srand((unsigned)time(NULL));
+	for (i = 1; i < 9; i++) {
+		bb = rand() % 20;
+		fprintf(F1, "%d\n", bb);
+	}
+	fclose(F1); //закрываем файл
+
+	int k = 0;
+	/*finput создаем для чтения нашего file.txt*/
+	FILE* finput;
+	int s;
+	finput = fopen("file.txt", "r+");
+
+	while ((fscanf(finput, "%d", &s) != EOF))
+	{
+		if (!finput) break; //чтобы не делал лишнего
+		k++;
+	}
+	int* c = (int*)malloc(k * sizeof(int));
+	rewind(finput); //устанавливаем указатель на начало в файле,чтобы снова прочитать файл
+
+	//создаем на запись второй файл F2,куда будем записывать прочитанный массив из finput
+	FILE* F2;
+	F2 = fopen("file2.txt", "wt");
+	//записываем в F2 3 строчек
+	int kol, t = 0;
+	cin >> kol;
+	for (i = 0; i < 10; i++)
+	{
+		if (i >= (kol - 1) && t != 5) {
+			fscanf(finput, "%d", &c[i]);
+			fprintf(F2, "%d\n", c[i]);
+			t += 1;
+		}
+		else {
+			fscanf(finput, "%d", &c[i]);
+		}
+	}
+	fclose(finput); //закрываем файл
+
+	free(c); //Высвобождение памяти
+	fclose(F2);//закрываем файл
+	printf("DONE!");
+	return 0;
+}

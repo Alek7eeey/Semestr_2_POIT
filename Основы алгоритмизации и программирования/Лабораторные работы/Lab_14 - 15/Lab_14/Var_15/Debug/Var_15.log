@@ -1,0 +1,25 @@
+﻿Сборка начата 23.05.2022 13:04:35.
+Уровень детализации журнала: Normal.     1>Проект "D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Var_15\Var_15.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "Debug\Var_15.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\Var_15.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp Var_15.cpp
+         Source.cpp
+         Var_15.cpp
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Debug\Var_15.exe" /INCREMENTAL /ILK:"Debug\Var_15.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Debug\Var_15.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Debug\Var_15.lib" /MACHINE:X86 Debug\Source.obj
+         Debug\Var_15.obj
+         Var_15.vcxproj -> D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Debug\Var_15.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Var_15.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Var_15.tlog\Var_15.lastbuildstate".
+     1>Сборка проекта "D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_14(n)\Lab_14\Var_15\Var_15.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.38

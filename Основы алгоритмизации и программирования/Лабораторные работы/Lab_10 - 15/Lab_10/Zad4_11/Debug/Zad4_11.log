@@ -1,0 +1,30 @@
+﻿Сборка начата 12.04.2022 15:55:56.
+Уровень детализации журнала: Normal.     1>Проект "D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_10(n)\Lab_10\Zad4_11\Zad4_11.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "Debug\Zad4_11.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\Zad4_11.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Zad4_11.cpp
+         Zad4_11.cpp
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_10(n)\Lab_10\Zad4_11\Zad4_11.cpp(27,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+     1>D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_10(n)\Lab_10\Zad4_11\Zad4_11.cpp(22): warning C4715: sum: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_10(n)\Lab_10\Debug\Zad4_11.exe" /INCREMENTAL /ILK:"Debug\Zad4_11.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_10(n)\Lab_10\Debug\Zad4_11.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_10(n)\Lab_10\Debug\Zad4_11.lib" /MACHINE:X86 Debug\Zad4_11.obj
+         Zad4_11.vcxproj -> D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_10(n)\Lab_10\Debug\Zad4_11.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Zad4_11.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Zad4_11.tlog\Zad4_11.lastbuildstate".
+     1>Сборка проекта "D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_10(n)\Lab_10\Zad4_11\Zad4_11.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_10(n)\Lab_10\Zad4_11\Zad4_11.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_10(n)\Lab_10\Zad4_11\Zad4_11.cpp(27,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+         D:\studing\Основы алгоритмизации и программирования\Лабораторные работы\Lab_10(n)\Lab_10\Zad4_11\Zad4_11.cpp(22): warning C4715: sum: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:02.52
